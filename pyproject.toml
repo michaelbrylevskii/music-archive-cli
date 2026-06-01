@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "music-archive-cli"
+version = "0.1.0"
+description = "Archive metadata, fingerprints, hashes, and a local browser viewer for a music library before deleting local files."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "0BSD"}
+authors = [
+  {name = "Michael"}
+]
+dependencies = [
+  "mutagen>=1.47"
+]
+keywords = ["music", "archive", "metadata", "chromaprint", "fingerprint"]
+
+[project.scripts]
+music-archive = "music_archive_cli.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
