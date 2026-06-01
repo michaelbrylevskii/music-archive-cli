@@ -10,6 +10,8 @@ Archive your local music library before deleting the files.
 
 The intended use case is simple: you no longer want to keep a local music library, but you still want a durable record that can help you remember, search for, or rebuild the collection later.
 
+![Music Archive browser viewer](docs/screenshot.png)
+
 ## Install
 
 From a checkout:
